@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    background: linear-gradient(to bottom right, rgb(151, 217, 243), rgb(73, 73, 253));
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.navigation {
+    width: 200px;
+    height: 100vh;
+    background-color: #829df580;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative; 
+    overflow: auto;
+}
+
+.navigation .contact-info {
+    font-size: 10pt;
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    box-sizing: border-box; 
+    background-color: #829df580; 
+    padding: 10px 0; 
+    text-align: center; 
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.navigation a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold
+}
+img.logo, img.small-logo {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center; 
+}
+
+.content img {
+    display: block;
+    margin: auto; 
+    width: 50%; 
+    height: auto; 
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    background-color: darkblue; 
+    color: white;
+    font-size: 14pt; 
+    text-align: center; 
+    padding: 10px; 
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.content h1 {
+    font-size: 24pt;
+    text-shadow: 2px 2px rgb(52, 7, 252);
+}
+
+.content p {
+    font-size: 18pt; 
+}
