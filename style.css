@@ -79,10 +79,6 @@ footer {
     font-size: 18pt; 
 }
 
-.content ul {
-    padding-left: 20px; /* Adjusts the indentation of the list */
-}
-
 .content li {
     font-size: 18pt;
     margin-bottom: 10px; /* Adds space between list items */
@@ -92,5 +88,14 @@ footer {
 .content .text-container {
     max-width: 50%; /* Limits the text content width to 50% of .content */
     margin: 0 auto; /* Centers the container within .content */
+}
+
+.content .text-container ul {
+    text-align: left; /* Align text to the left within the list */
+    display: inline-block; /* Make the list itself center-aligned */
+    padding-left: 0; /* Remove default padding for alignment */
+    list-style-position: inside; /* Moves bullets inside the content area */
+    margin: auto; /* Center the list in the text-container */
+    max-width: 100%; /* Ensure the list does not exceed the container width */
 }
 
