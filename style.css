@@ -105,6 +105,7 @@ footer {
 h2 {
     text-align: center;
     margin-bottom: 20px;
+    text-shadow: 2px 2px rgb(52, 7, 252);
   }
   
   .input-group {
