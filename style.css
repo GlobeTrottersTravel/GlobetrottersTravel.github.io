@@ -94,7 +94,7 @@ footer {
 }
 
 .content .text-container ul {
-    /*text-align: left;  Align text to the left within the list */
+    text-align: left;  
     display: inline-block; /* Make the list itself center-aligned */
     padding-left: 0; /* Remove default padding for alignment */
     list-style-position: inside; /* Moves bullets inside the content area */
