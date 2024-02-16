@@ -98,7 +98,7 @@ footer {
     display: inline-block; /* Make the list itself center-aligned */
     padding-left: 0; /* Remove default padding for alignment */
     list-style-position: inside; /* Moves bullets inside the content area */
-    margin: auto; /* Center the list in the text-container */
+    margin:0 auto; /* Center the list in the text-container */
     max-width: 50%; /* Ensure the list does not exceed the container width */
 }
 
